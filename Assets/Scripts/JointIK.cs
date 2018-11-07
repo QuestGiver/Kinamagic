@@ -6,6 +6,7 @@ using UnityEngine;
 public class JointIK : MonoBehaviour
 {
     //this script re implaments object parenting
+    [Range(0,1)]
     public Vector3 axis;
     public float distanceThreshold;
     public Vector3 startOffset;
@@ -14,9 +15,46 @@ public class JointIK : MonoBehaviour
 
     public GameObject[] Joints;
 
+    public Transform TargetPos;
+
     void Awake()
     {
         startOffset = transform.localPosition;
+    }
+
+
+    void Update()
+    {
+        
+    }
+
+    private void OnDrawGizmos()
+    {
+        for (int i = 0; i < Joints.Length-1; i++)
+        {
+            if (((i + 1) < (Joints.Length-1)))
+            {
+                Debug.DrawLine(Joints[i - 1].transform.position, Joints[i].transform.position,new Color32((byte)((i+1)*2), (byte)((i+2) *3), (byte)((i+3) *4), (byte)(255)));
+            }
+        }
+
+    }
+
+    void AdjustRotation()
+    {
+        JointIK[] IK = new JointIK[Joints.Length];
+        float[] jointAngles = new float[Joints.Length];
+        for (int i = 0; i < Joints.Length; i++)
+        {
+            IK[i] = Joints[i].GetComponent<JointIK>();
+            jointAngles[i] = new Vector3(Joints[i].transform.rotation.eulerAngles.x * IK[i].axis.x, Joints[i].transform.rotation.eulerAngles.y * IK[i].axis.y, Joints[i].transform.rotation.eulerAngles.z * IK[i].axis.z).magnitude;
+        }
+
+        for (int i = 0; i < Joints.Length; i++)
+        {
+            PartialGradient(TargetPos.position, jointAngles,i,1);
+        }
+        //https://www.alanzucconi.com/2017/04/10/robotic-arms/
     }
 
     //returns the postion sof the next point in the hierarchy 
@@ -67,6 +105,7 @@ public class JointIK : MonoBehaviour
         return gradient;
     }
 
+    //"inverse kinematics"
     void GradientDecentKinematics(Vector3 target, float[] angles, float samplingDistance)
     {
         if (DistanceFromTarget(target, angles) < distanceThreshold)
