@@ -22,14 +22,14 @@ public static class FABRICK_Library
         FABRIK_Joint currentLimb;
         Transform targetposition = goal;
         currentLimb = Limbs[Limbs.Length];//(last limb in array)
-        currentLimb.incommingPosition = currentLimb.transform.position;
+        currentLimb.incommingRotation = currentLimb.transform.position;
 
 
         while (currentLimb != null)
         {
-            currentLimb.transform.rotation = Vector3.Angle(currentLimb.transform.rotation, targetposition.position - currentLimb.incommingPosition);
-            currentLimb.outboardPosition = target position;
-            target position = currentLimb.incommingPosition;
+            currentLimb.transform.Rotate(currentLimb.axisOfRotation,Vector3.Angle(currentLimb.transform.rotation.eulerAngles, targetposition.position - currentLimb.incommingRotation));
+            currentLimb.outgoingRotation = target position;
+            target position = currentLimb.incommingRotation;
             currentLimb = next limb furthur within the treebranch;
         }
     }
