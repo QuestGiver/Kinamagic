@@ -20,12 +20,116 @@ public class FABRICK_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FABRIK(Joints, goalPosition, 0.01f);
+        FABRIKvII(Joints, goalPosition, 0.01f);
     }
 
 
-    public void FABRIKII(Transform[] jointPosition, Transform targetPosition, float tolerance)
+    public void FABRIKvII(Transform[] jointPosition, Transform targetPosition, float tolerance)
     {
+
+        //Functionwide variables
+        float[] jointSeperationDistances = new float[jointPosition.Length - 1];//distance between each joint
+        float rootTargetDistance = Vector3.Distance(jointPosition[0].position, targetPosition.position);//distance between the target and the root of the model, this needs to be a double in order to preserve distances
+        float reach = 0;//assuming the link chain starts at "zero position", this is the total sum of distances between each joint
+        //end functionwide variables
+
+        //Initializing IK function------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        for (int i = 0; i < jointPosition.Length - 1; i++)//calculates the starting distance between each point within the jointArray
+        {
+            jointSeperationDistances[i] = Vector3.Distance(jointPosition[i + 1].position, jointPosition[i].position);
+        }
+
+        for (int i = 0; i < jointSeperationDistances.Length; i++)
+        {
+            reach += jointSeperationDistances[i];
+        }
+
+
+        //end initialization------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        //Determining IK behavior(attempt get as close to the target as possible because it is out of range v.s attempt to touch the target because it is within range)
+
+        if (reach < rootTargetDistance /*is the reach is greater than the distance from the target?*/)
+        {
+            //if the target is not within reach: have the model 'point' at the target
+
+            //the variable containing the direction between the the root and the target;
+            Vector3 targetRootDirection = (targetPosition.position - jointPosition[0].position).normalized;
+
+
+            //sets new positions for joints in the chain-----------
+            for (int i = 0; i < jointPosition.Length - 1; i++)
+            {
+                float dist = 0;
+                for (int j = 0; j < i + 1; j++)
+                {
+                    dist += jointSeperationDistances[j];
+                }
+
+                jointPosition[i + 1].position = jointPosition[0].position + (targetRootDirection * dist);
+
+            }
+            //----------------------------------------------------
+
+
+        }
+        else
+        {
+            //if the target is within reach: Have the model begin forwards and backwards reaching iterations
+
+            Vector3 savedRootPosition = jointPosition[0].position;//saves the root position
+            float endJointTargetDist = Vector3.Distance(jointPosition[jointPosition.Length - 1].position, targetPosition.position);//the distance between the end joint and the target
+            endJointTargetDist = Vector3.Distance(jointPosition[jointPosition.Length - 1].position, targetPosition.position);
+
+            //if (tolerance > endJointTargetDist)
+            // {
+            //Forwards Reaching Phase+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            jointPosition[jointPosition.Length - 1].position = targetPosition.position;//the ending joint is teleported to the target
+
+
+            //the ending joint was moved to the target, this forloop simulates the end joint 'dragging' the other point along one at a time
+            for (int i = 0; i < jointPosition.Length - 1; i++)
+            {
+                if (i <= 4)
+                {
+                    jointPosition[(jointPosition.Length - 1) - (i + 1)].position// the joint just before the current forwardmost joint being proccessed, otherwise known as joint "A"
+                       = jointPosition[(jointPosition.Length - 1) - i].position//current forwardmost joint being proccessed, otherwise known as joint "B"
+                       + ((jointPosition[(jointPosition.Length - 1) - (i + 1)].position) -jointPosition[(jointPosition.Length - 1) - i].position).normalized//the normalized direction between joint A and joint B
+                       * jointSeperationDistances[(jointSeperationDistances.Length - 1) - i];//the recorded distance between joint A and joint B, being used as a limb/distance restraint via scaling the given direction               
+
+                }
+                else
+                {
+                    jointPosition[(jointPosition.Length - 1) - i].position// the joint just before the current forwardmost joint being proccessed, otherwise known as joint "A"
+                        = jointPosition[(jointPosition.Length) - i].position//current forwardmost joint being proccessed, otherwise known as joint "B"
+                        + ((jointPosition[(jointPosition.Length - 1) - (i + 1)].position) - jointPosition[(jointPosition.Length) - i].position).normalized//the normalized direction between joint A and joint B
+                        * jointSeperationDistances[(jointSeperationDistances.Length - 1) - i];//the recorded distance between joint A and joint B, being used as a limb/distance restraint via scaling the given direction  
+                }
+
+            }
+            //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            //Backwards Reaching Phase---------------------------------------------------------------------------
+
+            jointPosition[0].position = savedRootPosition;//sets the root position back to its original position
+
+            //the root was moved to it's original position, this forloop simulates the root joint 'dragging' the other joints along one at a time
+            for (int i = 0; i < jointPosition.Length - 1; i++)
+            {
+                jointPosition[i + 1].position//the point just before the backwards most joint being processed, aka Joint "A"
+                    = jointPosition[i].position //the current backwards most joint being processed, aka Joint "B"
+                    + ( jointPosition[i + 1].position - jointPosition[i].position).normalized //the normalized direction between Joint A and Joint B
+                    * jointSeperationDistances[i];// the recorded distance between the joint A and Joint B, being used as a limb/distance restraint via scaling the given direction
+            }
+            //---------------------------------------------------------------------------------------------------
+            //}
+        }
+
+
+
 
     }
 
@@ -80,7 +184,7 @@ public class FABRICK_Controller : MonoBehaviour
 
 
 
-            while (tolerance < endJointTargetDist)
+            while (tolerance > endJointTargetDist)
             {
 
                 //stage 1: forwards reaching
