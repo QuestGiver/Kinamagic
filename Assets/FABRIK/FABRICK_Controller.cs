@@ -10,6 +10,8 @@ public class FABRICK_Controller : MonoBehaviour
     [SerializeField]
     Transform[] Joints;
 
+    public float slack;
+
 
     // Use this for initialization
     void Start()
@@ -23,6 +25,15 @@ public class FABRICK_Controller : MonoBehaviour
         FABRIKvII(Joints, goalPosition, 0.01f);
     }
 
+    private void OnDrawGizmos()
+    {
+        for (int i = 0; i < Joints.Length-1; i++)
+        {
+
+            Debug.DrawLine(Joints[i].position, Joints[i + 1].position, Color.red);
+            
+        }
+    }
 
     public void FABRIKvII(Transform[] jointPosition, Transform targetPosition, float tolerance)
     {
@@ -43,7 +54,7 @@ public class FABRICK_Controller : MonoBehaviour
 
         for (int i = 0; i < jointSeperationDistances.Length; i++)
         {
-            reach += jointSeperationDistances[i];
+            reach += jointSeperationDistances[i] + slack;
         }
 
 
@@ -93,7 +104,7 @@ public class FABRICK_Controller : MonoBehaviour
             //the ending joint was moved to the target, this forloop simulates the end joint 'dragging' the other point along one at a time
             for (int i = 0; i < jointPosition.Length - 1; i++)
             {
-                if (i <= 4)
+                if (i <= jointPosition.Length - 2)
                 {
                     jointPosition[(jointPosition.Length - 1) - (i + 1)].position// the joint just before the current forwardmost joint being proccessed, otherwise known as joint "A"
                        = jointPosition[(jointPosition.Length - 1) - i].position//current forwardmost joint being proccessed, otherwise known as joint "B"
