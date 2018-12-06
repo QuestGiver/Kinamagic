@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class FABRIK_Controller : MonoBehaviour
 {
     [SerializeField]
@@ -12,11 +13,18 @@ public class FABRIK_Controller : MonoBehaviour
 
     public float slack;
 
+    public bool run = true;
+
+
+
 
     // Update is called once per frame
     void Update()
     {
-        FABRIK(Joints, goalPosition, 0.01f);
+        if (run)
+        {
+            FABRIK(Joints, goalPosition, 0.01f);
+        }
     }
 
     private void OnDrawGizmos()
