@@ -101,6 +101,12 @@ public class FABRIK_Controller : MonoBehaviour
         }
 
 
+        for (int i = 0; i < JointInfo.Length-1; i++)
+        {
+            JointInfo[i].joint.LookAt(JointInfo[i + 1].joint, Vector3.up);
+        }
+
+
         //end initialization------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         //Determining IK behavior(attempt get as close to the target as possible because it is out of range v.s attempt to touch the target because it is within range)
