@@ -5436,6 +5436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 45
   jointTransforms:
   - {fileID: 427424532}
   - {fileID: 2021478643}
@@ -5598,642 +5599,324 @@ MonoBehaviour:
   - {fileID: 1750636757}
   JointInfo:
   - joint: {fileID: 427424532}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2021478643}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 675347438}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 199565105}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1569905725}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1341849021}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1623914558}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1140156300}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 147665142}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 272771918}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 670970473}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1331679268}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 787749798}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 804078966}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2044092307}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1211713092}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1184781779}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 52258458}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1224512424}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1249234854}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2121343997}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 372292358}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 989684688}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1586596819}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 696790336}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 980636569}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1799465987}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 962356644}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1372935779}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1905926228}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 392012767}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1308012012}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 913020018}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 382972504}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1818927105}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 344707476}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2116622192}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1977828344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1278248940}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 117297336}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 819539305}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1598700672}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 386791331}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2141058461}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 106308971}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 141641756}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1882787409}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1620583647}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1465004243}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1432460212}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1838306498}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1275929466}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 169823883}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1408954490}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 749834908}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 151153312}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2040073772}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2103722074}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1575039013}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1194196886}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1987336462}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 701348115}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2113526816}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1434469731}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 32031471}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1160380137}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1979960183}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 570375042}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1724347107}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1813188205}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 69415140}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1557672150}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 22350287}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1967200231}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1752728966}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1975209672}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1552495304}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 562753688}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 225578383}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 579905426}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 924493327}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1097000499}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1549897198}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2078934496}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 421721723}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1328005147}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 528036599}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 882251836}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 982104566}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1264552367}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 501742770}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 431257847}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1854225445}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1503709860}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2063640403}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1095308045}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 116024094}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1505776818}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 662983405}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 777843812}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2071693375}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 541404733}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 626203627}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1818565840}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1266176774}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1120247961}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2138341218}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1001621285}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 853150509}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1576316048}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 19353384}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 646607489}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1156288023}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1006879441}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 132574209}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1913491471}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1787706216}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1220108709}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2022638176}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1713139873}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2102540808}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2120601673}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2121840674}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2078559807}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 386584904}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1203614847}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2084545817}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 628330784}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1681062944}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1803513584}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 997120713}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1910921874}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1172328462}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1433945673}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 411926198}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1543278056}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 484167342}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 193368441}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2014129772}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1201735481}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 88934344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 989813576}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 730874886}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1682378377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 156851961}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1228671480}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 712692394}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2040809903}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1926025958}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 625911676}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1507710690}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 49220942}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 371244048}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1953049257}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 653197309}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 596674676}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1337653341}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1919886475}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1750636757}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
-  slack: 0
+    orientationLimmit: 45
+  slack: 50
   run: 1
   reverseOrder: 0
 --- !u!65 &427424534
@@ -6646,7 +6329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &466930728
 Transform:
   m_ObjectHideFlags: 0
@@ -11058,6 +10741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 0
   jointTransforms: []
   JointInfo: []
   slack: 1
@@ -12215,6 +11899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 843859738}
   - {fileID: 739981970}
@@ -12248,125 +11933,65 @@ MonoBehaviour:
   - {fileID: 1757549659}
   JointInfo:
   - joint: {fileID: 843859738}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 739981970}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1407748257}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1216575235}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 499151147}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 615216377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 843396773}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 567184132}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1322181509}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2107468985}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 970279344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 127737409}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 723716224}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 557622804}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1153390894}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1788399963}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2062421861}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1072382377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1827163177}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1893467973}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 797788601}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1654008030}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1027882395}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1595938265}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 453696397}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1332875233}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 929738132}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1349682055}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1273227764}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1757549659}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 0
   run: 1
   reverseOrder: 0
@@ -21750,6 +21375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1547691811}
   - {fileID: 1827111258}
@@ -21783,125 +21409,65 @@ MonoBehaviour:
   - {fileID: 1832784799}
   JointInfo:
   - joint: {fileID: 1547691811}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1827111258}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 265147652}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1965425827}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 234337269}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 552100928}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1646466636}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1301719032}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1476348328}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1483951944}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1435456189}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1817106361}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 200314465}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 163616317}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1103038702}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1720723768}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1143522144}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 545065304}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 702668094}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1889161238}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 902442857}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 61953171}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 716075419}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1685339193}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1442604603}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 189025868}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 377167354}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 737364309}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 488144855}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1832784799}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 0
   run: 1
   reverseOrder: 0
@@ -23290,7 +22856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1638141238
 Transform:
   m_ObjectHideFlags: 0
@@ -24302,6 +23868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 45
   jointTransforms:
   - {fileID: 1750636757}
   - {fileID: 1919886475}
@@ -24464,641 +24031,323 @@ MonoBehaviour:
   - {fileID: 427424532}
   JointInfo:
   - joint: {fileID: 1750636757}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1919886475}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1337653341}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 596674676}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 653197309}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1953049257}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 371244048}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 49220942}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1507710690}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 625911676}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1926025958}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2040809903}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 712692394}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1228671480}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 156851961}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1682378377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 730874886}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 989813576}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 88934344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1201735481}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2014129772}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 193368441}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 484167342}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1543278056}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 411926198}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1433945673}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1172328462}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1910921874}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 997120713}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1803513584}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1681062944}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 628330784}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2084545817}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1203614847}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 386584904}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2078559807}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2121840674}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2120601673}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2102540808}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1713139873}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2022638176}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1220108709}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1787706216}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1913491471}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 132574209}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1006879441}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1156288023}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 646607489}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 19353384}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1576316048}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 853150509}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1001621285}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2138341218}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1120247961}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1266176774}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1818565840}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 626203627}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 541404733}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2071693375}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 777843812}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 662983405}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1505776818}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 116024094}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1095308045}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2063640403}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1503709860}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1854225445}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 431257847}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 501742770}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1264552367}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 982104566}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 882251836}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 528036599}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1328005147}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 421721723}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2078934496}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1549897198}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1097000499}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 924493327}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 579905426}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 225578383}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 562753688}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1552495304}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1975209672}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1752728966}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1967200231}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 22350287}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1557672150}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 69415140}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1813188205}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1724347107}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 570375042}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1979960183}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1160380137}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 32031471}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1434469731}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2113526816}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 701348115}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1987336462}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1194196886}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1575039013}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2103722074}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2040073772}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 151153312}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 749834908}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1408954490}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 169823883}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1275929466}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1838306498}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1432460212}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1465004243}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1620583647}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1882787409}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 141641756}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 106308971}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2141058461}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 386791331}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1598700672}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 819539305}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 117297336}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1278248940}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1977828344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2116622192}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 344707476}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1818927105}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 382972504}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 913020018}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1308012012}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 392012767}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1905926228}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1372935779}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 962356644}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1799465987}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 980636569}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 696790336}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1586596819}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 989684688}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 372292358}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2121343997}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1249234854}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1224512424}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 52258458}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1184781779}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1211713092}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2044092307}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 804078966}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 787749798}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1331679268}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 670970473}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 272771918}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 147665142}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1140156300}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1623914558}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1341849021}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 1569905725}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 199565105}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 675347438}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 2021478643}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   - joint: {fileID: 427424532}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 45
   slack: 50
   run: 1
   reverseOrder: 0
@@ -25384,6 +24633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 189573211}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1757549659}
   - {fileID: 1273227764}
@@ -25417,125 +24667,65 @@ MonoBehaviour:
   - {fileID: 843859738}
   JointInfo:
   - joint: {fileID: 1757549659}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1273227764}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1349682055}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 929738132}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1332875233}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 453696397}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1595938265}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1027882395}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1654008030}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 797788601}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1893467973}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1827163177}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1072382377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2062421861}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1788399963}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1153390894}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 557622804}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 723716224}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 127737409}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 970279344}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2107468985}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1322181509}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 567184132}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 843396773}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 615216377}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 499151147}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1216575235}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1407748257}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 739981970}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 843859738}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 5
   run: 1
   reverseOrder: 0
@@ -25710,6 +24900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1682378377}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1782759709}
   - {fileID: 2136440499}
@@ -25743,125 +24934,65 @@ MonoBehaviour:
   - {fileID: 776456241}
   JointInfo:
   - joint: {fileID: 1782759709}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2136440499}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2137882579}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1157806813}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 88617855}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1608248362}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1066444983}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1981203337}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2120521138}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 975912966}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 18418375}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 140514135}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1354930473}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 433347492}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 389273701}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 682498717}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 510326464}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1936695498}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1854551321}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1583158756}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 581564476}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1115418737}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 889240813}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1610842477}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 2023952935}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 792401659}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1068322680}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1134257259}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 813491830}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 776456241}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 1
   run: 1
   reverseOrder: 0
@@ -27182,6 +26313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 189573211}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1832784799}
   - {fileID: 488144855}
@@ -27215,125 +26347,65 @@ MonoBehaviour:
   - {fileID: 1547691811}
   JointInfo:
   - joint: {fileID: 1832784799}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 488144855}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 737364309}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 377167354}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 189025868}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1442604603}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1685339193}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 716075419}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 61953171}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 902442857}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1889161238}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 702668094}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 545065304}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1143522144}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1720723768}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1103038702}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 163616317}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 200314465}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1817106361}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1435456189}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1483951944}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1476348328}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1301719032}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1646466636}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 552100928}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 234337269}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1965425827}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 265147652}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1827111258}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1547691811}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 5
   run: 1
   reverseOrder: 0
@@ -27490,7 +26562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1839287249
 Transform:
   m_ObjectHideFlags: 0
@@ -27836,6 +26908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1868247258}
   - {fileID: 325875545}
@@ -27869,125 +26942,65 @@ MonoBehaviour:
   - {fileID: 1981686826}
   JointInfo:
   - joint: {fileID: 1868247258}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 325875545}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 341592084}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 803955216}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 406621939}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 694540875}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 236368707}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1792784230}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 526762430}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1068702951}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 975945821}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 180350603}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 299250706}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1164451498}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1392266011}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 677802636}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 904667358}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 627461281}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1757561938}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1292501929}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1875901108}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 659375238}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 372665196}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1656228834}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 873437376}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 355770320}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 311221980}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1392553004}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 61102026}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1981686826}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 0
   run: 1
   reverseOrder: 0
@@ -29660,6 +28673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 189573211}
+  orientationLimmitOverride: 0
   jointTransforms:
   - {fileID: 1981686826}
   - {fileID: 61102026}
@@ -29693,125 +28707,65 @@ MonoBehaviour:
   - {fileID: 1868247258}
   JointInfo:
   - joint: {fileID: 1981686826}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 61102026}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1392553004}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 311221980}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 355770320}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 873437376}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1656228834}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 372665196}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 659375238}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1875901108}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1292501929}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1757561938}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 627461281}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 904667358}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 677802636}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1392266011}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1164451498}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 299250706}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 180350603}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 975945821}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1068702951}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 526762430}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1792784230}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 236368707}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 694540875}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 406621939}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 803955216}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 341592084}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 325875545}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   - joint: {fileID: 1868247258}
-    xRotationLimmit: 0
-    yRotationLimmit: 0
-    zRotationLimmit: 0
+    orientationLimmit: 0
   slack: 5
   run: 1
   reverseOrder: 0
@@ -30413,6 +29367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPosition: {fileID: 1331341695}
+  orientationLimmitOverride: 0
   jointTransforms: []
   JointInfo: []
   slack: 1
