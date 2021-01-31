@@ -25,18 +25,6 @@ public class FABRIK_MultiChain : MonoBehaviour
     [SerializeField]
     RootChain[] chains;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void FABRIK_Multi()
     {
 
